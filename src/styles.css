@@ -1,112 +1,105 @@
-html {
-    font-size: 16px;
-}
 body{
-    padding:0;
     margin:0;
-    font-family:Lato;
-    background-color: rgb(233, 174, 64);
+    padding:0;
 }
-
-.hero-section {
+.profile{
     display: flex;
+    width:100%;
+    margin:0;
+    padding:20px;
+    background-color: #DADDB1;
+}
+.profile-picture{
+    max-width:500px;
+    height:500px;
+    margin:5px;
+    padding:10px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+.profile img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    margin:0;
+    padding:0;
+    border-radius: 50%;
    
 }
-
-.left-side {
-    margin: 12px;
-    padding: 0 8px;
-    width:50%;
+.profile-text{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin:0 50px;
+    padding:20px;
 }
-
-.right-side {
-    margin: 12px;
-    padding: 8px 32px;
-    width:50%;
-    height:800px;
+.profile-text h1{
+    margin:10px 0px 4px 8px;
+    padding:10px 0px 4px 0;
+    font-family: "Playfair display";
+    font-size: 4rem;
 }
-
-#contacts{
+.profile-text h2{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2rem;
+    margin:14px 0px 8px 0px;
+    padding:10px 0px 4px 0;
+}
+.profile-text p{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin:10px 0px 4px 0px;
+    padding:10px 0px 4px 0;
+}
+.skills{
     display:flex;
-    margin:10px auto;
-    height:40px;
+    margin:0;
+    padding:20px;
+    background-color: #B3A492;
 }
-
-#phone{
-width:50%;
-margin:8px 4px;
-padding:12px 4px;
+.skill-item{
+    display: flex;
+    width: 700px;
+    height:350px;
+    border:1px solid #DADDB1;
+    border-radius: 20px;
+    overflow: hidden;
+    
 }
-
-#email{
+.skill-picture{
     width:50%;
-
-margin:8px 4px;
-padding:12px 4px;
+    height:95%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden; 
 }
-
-#phone-icon {
-    height: 16px;
-    width: 16px;
-    padding-left: 4px;
-    
-}
-
-
-#email-icon {
-    height: 28px;
-    width: 24px; 
-    padding-bottom:4px;
-    
-}
-
-span{
-    margin:20px 0;
-    padding-bottom:-4px;
-    text-align:center;
-}
-
-#greetings{
-    margin-top:32px;
-    padding:16px 4px 8px 4px;
-    font-size:0.875rem;
-}
-    
-
-h1 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    font-family:Roboto;
-}
-
-button {
-    background-color: rgb(19, 17, 14);
-    color: white;
-    border: 2px solid rgb(112, 110, 110);
-    border-radius: 6px;
-    padding:8px;
-}
-
-button:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid darkgray;
-    border-radius: 6px;
-    cursor:pointer;
-    
-}
-#my-photo{
-    height: 300px;
+.skill-picture img{
     width:100%;
+    height:100%;
     object-fit: cover;
-    border-bottom-left-radius:40px;
-    border-bottom-right-radius: 40px;
+    margin:0;
+    padding:0;
+     
     
 }
-a{
-    text-decoration:none ;
-    color:white;
+.skill-text{
+    width:50%;
+    flex-wrap: wrap;
+    margin:0 30px;
+    padding:20px;
 }
-a:hover{
-    color:black;
+.skill-text h2{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2rem;
+    margin:14px 0px 8px 0px;
+    padding:10px 0px 4px 0;
+}
+.skill-text p{
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size: 1rem;
+    margin:10px 0px 0px 0px;
+    padding:10px 0px 4px 0;
 }
