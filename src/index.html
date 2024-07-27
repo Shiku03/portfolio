@@ -12,8 +12,18 @@
 </head>
 
 <body>
-
+    
+<div id="navbar">
+    <span onclick="closeNav()">Close</span>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contacts</a></li>
+    </ul>
+</div>
     <div class="profile">
+        <span onclick="openNav()">Open</span>
         <div class="profile-picture">
             <img src="/images/kungfu panda.jpg" alt="Profile picture">
         </div>
@@ -21,21 +31,35 @@
             <h1>Frontend Web Developer</h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam molestie quam sit amet sapien sagittis, in malesuada ex mollis. Quisque dapibus posuere odio, at tincidunt enim ultricies ut.</p>
+            <div class="contacts">
+                <ul>
+                    <li><a href="">(+254)708399359</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Tiktok</a></li>
+                    <li><a href="">X</a></li>
+                </ul>
+            </div>
         </div>
+        
     </div>
 
+    <div class="skills-section">
+        <h1>SKILLS</h1>
     <div class="skills">
         <div class="skill-item">
             <div class="skill-picture">
                 <img src="/images/kungfu panda.jpg" alt="skill-picture">
             </div>
             <div class="skill-text">
-                <h2>Bootstrap</h2>
+                <a href=""><h2>Bootstrap</h2></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam molestie quam sit amet sapien sagittis, in malesuada ex mollis. Quisque dapibus posuere odio, at tincidunt enim ultricies ut. Nam luctus ex id consectetur varius. Nullam sit amet ante magna. In volutpat ligula eget quam porta, vel bibendum enim porttitor. </p>
             </div>
         </div>
     </div>
+    </div>
 
+    <div class="projects-section">
+        <h1>PROJECTS</h1>
     <div class="projects">
         <div class="project-item">
             <div class="project-photo">
@@ -43,12 +67,12 @@
             </div>
             
             <div class="project-text">
-                <h2>Bootstrap</h2>
+                <a href=""><h2>Bootstrap</h2></a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam molestie quam sit amet sapien sagittis, in malesuada ex mollis. Quisque dapibus posuere odio, at tincidunt enim ultricies ut.</p>
             </div>
         </div>
     </div>
-
+</div>
     <footer>
         <div class="links">
             <div class="links-item">
@@ -60,7 +84,10 @@
                 </ul>
             </div>
         </div>
+        <p>Copyright 2024 All rights reserved</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
