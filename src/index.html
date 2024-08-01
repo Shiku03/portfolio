@@ -8,13 +8,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
 <body>
+
+    <div class="open-navbar" id="open-navbar">
+        <i class="fa-solid fa-bars"></i>
+    </div>
     
 <div id="navbar">
-    <span onclick="closeNav()">Close</span>
+    <i class="fa-solid fa-xmark" id="close-navbar"></i>
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">Skills</a></li>
@@ -23,7 +28,6 @@
     </ul>
 </div>
     <div class="profile">
-        <span onclick="openNav()">Open</span>
         <div class="profile-picture">
             <img src="/images/kungfu panda.jpg" alt="Profile picture">
         </div>
