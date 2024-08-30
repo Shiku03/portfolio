@@ -1,73 +1,121 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-    font-family: 'Libre Baskerville';
 }
 body{
-    background-color: #2c0036;
-    position: relative;
-    display: flex;
-    justify-content: center;
+    background-color: #020f16;
+    padding:20px;
 }
-.content{
-    min-height:100vh;
-    width:80%;
+
+nav ul{
+    display:flex;
+    justify-content: right;
+    align-items: center;
 }
-.menu ul{
-    margin-left:0;
-    width:100%;
-    text-align: right;
-    margin:auto
+nav ul li{
+    list-style: none;
+    padding:20px;
 }
-ul li{
-    list-style-type: none;
-    margin:4px;
-    display: inline;
-    
-}
-ul li a{
+nav ul li a {
     text-decoration: none;
+    color: #808080;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-delay: 0.04s;
+    transition-timing-function: ease-in-out;
 }
-.menu ul li a{
-    text-align: left;
-    color:#7a3e81;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.5rem;
+nav ul li a:hover{
+    color:#c4c4c4;
 }
-.menu-gallery{
+section .intro{
+    display: flex;
     
-    width:60vw;
+}
+.profile{
+    max-width:30vw;
+    min-height:500px;
+    padding:20px;
+    border:1px solid #707070;
+    border-radius: 20px;
+}
+.profile-photo img{
     height:100%;
-    display: flex;
- gap:4px;
-    padding:10px;
-}
-.column{
-    display: flex;
-    flex-direction: column;
-   
-}
-.photo img{
     width:100%;
-    height: 100%;
-    object-fit: contain;
-    border-radius:5px;
-}
-.profile-section{
-    display: flex;
-    justify-content: left;
-    margin:50px 0;
-    width:100%;
+    object-fit: cover;
+    
 }
 .profile-photo{
-    width:400px;
-    height:400px;
-}
-.profile-section img{
+    height:50%;
     width:100%;
+    overflow:hidden;
+}
+.profile-text{
+    margin-top:20px;
+    height:50%;
+}
+.profile-text h1{
+    font-size:1.8rem;
+}
+.profile-text p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+.images{
+    width:60vw;
     height:100%;
+    position:relative;
+}
+#image-1{
+    height:150px;
+    width:150px;
+    position: absolute;
+    top:200px;
+    left:80px;
     object-fit: cover;
-    border-radius: 50%;
+}
+
+#image-2{
+    height:240px;
+    width:200px;
+    position: absolute;
+    top:140px;
+    left:240px;
+    object-fit: cover;
+}
+
+#image-3{
+    height:340px;
+    width:200px;
+    position: absolute;
+    top:60px;
+    left:460px;
+    object-fit: cover;
+}
+
+#image-4{
+    height:140px;
+    width:300px;
+    position: absolute;
+    top:400px;
+    right:4px;
+    object-fit: cover;
+}
+
+#image-5{
+    height:140px;
+    width:300px;
+    position: absolute;
+    top:0;
+    right:0;
+    object-fit: cover;
+}
+
+#image-6{
+    height:140px;
+    width:300px;
+    position: absolute;
+    top:100px;
+    right:0;
+    object-fit: cover;
 }
