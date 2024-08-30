@@ -4,60 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-       
-    </header>
-   
-    <section>
-        <div class="intro">
-            <div class="profile">
-                <div class="profile-photo">
-                    <img src="images/kungfu panda.jpg" alt="">
-                </div>
-                <div class="profile-text">
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repudiandae voluptates cum ad in laboriosam doloribus aperiam eius quos iure beatae corporis quis aut molestiae, sunt rerum asperiores facere fugiat.</p>
-                </div>
-            </div>
-            <div class="images">
-                <div class="image-frame">
-                    <img src="images/pexels-annamw-1047458.jpg" alt="" id="image-1">
-                </div>
+    <div class="menu">
+        <h1 onclick="showSidenav()">Home</h1>
+        <h1>LOGO</h1>
+    </div>
 
-                <div class="image-frame">
-                    <img src="images/pexels-dapur-melodi-192125-1109197.jpg" alt="" id="image-2">
-                </div>
+    <nav id="sidenav">
+        <ul>
+            <li><p onclick="closeSidenav()">Close</p></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
 
-                <div class="image-frame">
-                    <img src="images/pexels-onewayupdesigns-2085831.jpg" alt="" id="image-3">
-                </div>
-
-                <div class="image-frame">
-                    <img src="images/pexels-padrinan-1061136.jpg" alt="" id="image-4">
-                </div>
-
-                <div class="image-frame">
-                    <img src="images/pexels-paduret-1476321.jpg" alt="" id="image-5">
-                </div>
-
-                <div class="image-frame">
-                    <img src="images/pexels-pixabay-159298.jpg" alt="" id="image-6">
-                </div>
-
-            </div>
-           </div>
-    </section>
+    <script src="script.js"></script>
 </body>
 </html>
