@@ -3,25 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="menu">
-        <h1 onclick="showSidenav()">Home</h1>
-        <h1>LOGO</h1>
-    </div>
-
-    <nav id="sidenav">
+    <div class="navbar">
+        <span class="menu"><i class="fa-solid fa-bars"></i></span>
         <ul>
-            <li><p onclick="closeSidenav()">Close</p></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-    </nav>
-
-   
-    <script src="script.js"></script>
+    </div>
 </body>
 </html>
