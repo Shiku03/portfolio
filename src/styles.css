@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 body{
+<<<<<<< HEAD
     background-color: #05021d;
+=======
+    width:100vw;
+    background-color: #F5f5dc;
+>>>>>>> b32d30d68ad755f2c5033e13f58cf07dc351c6cb
 }
 a{
     text-decoration:none;
 }
+<<<<<<< HEAD
 .menu ul{
     text-align: right;
     padding:10px;
@@ -35,6 +41,83 @@ a{
     display:flex;
     align-items: center;
     justify-content:center;
+=======
+a:hover{
+    cursor:pointer;
+}
+.navbar {
+    width:100vw;
+    height:80px;
+    padding:20px;
+    border-bottom: 1px solid rgba(146, 64, 14, 0.4);
+    position :fixed;
+}
+.navbar ul {
+    text-align: right;
+}
+.navbar ul li {
+    display:inline;
+    padding:0 20px 0 20px;
+    font-size:1.3rem;
+}
+.navbar ul li a{
+    color:#92400E;
+}
+.navbar span{
+    font-size:1.3rem;
+}
+section.home{
+    display:flex;
+    width:100%;
+    border-bottom: 1px solid rgba(146, 64, 14, 0.4);
+}
+.profile-photo{
+    width:30vw;
+    height:250px;
+    margin:20px;
+    border:1px solid #85774b;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow:hidden;
+    box-shadow: -6px -4px 6px #ecd587;
+}
+.profile-photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.intro-text{
+    width:60vw;
+    margin: 20px 30px;
+}
+
+ ul.skills li{
+    list-style-type:none;
+    font-weight:300;
+}
+section.projects h1{
+    text-align:center;
+    font-size:1.5rem;
+    text-transform: uppercase;
+    margin:15px;
+   
+}
+ div.projects{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+   padding:20px;
+   gap:10px;
+   height:200px;
+   
+}
+ div.projects img{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+}
+div.projects p{
+font-size: 1.2rem;
+>>>>>>> b32d30d68ad755f2c5033e13f58cf07dc351c6cb
 }
 .welcome-message h2{
     color:white;
