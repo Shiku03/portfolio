@@ -4,121 +4,46 @@
     box-sizing: border-box;
 }
 body{
-<<<<<<< HEAD
-    background-color: #05021d;
-=======
+    background-image:linear-gradient( #050505, #010030, #070046, #0e0052, #0d0049, #0a0a0a );
     width:100vw;
-    background-color: #F5f5dc;
->>>>>>> b32d30d68ad755f2c5033e13f58cf07dc351c6cb
+    min-height:100vh;
 }
 a{
     text-decoration:none;
 }
-<<<<<<< HEAD
-.menu ul{
-    text-align: right;
-    padding:10px;
-}
-.menu ul li {
-    display:inline;
-    margin:10px;
-}
-.menu ul li a {
-    color:#555454;
-   
-    transition-property: color;
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
-    transition-timing-function: ease-in-out;
-}
-.menu ul li a:hover{
-    color:#b9b9b9;
-    
-}
-.welcome-message{
-    width:100vw;
-    height:500px;
-    display:flex;
-    align-items: center;
-    justify-content:center;
-=======
-a:hover{
-    cursor:pointer;
-}
 .navbar {
-    width:100vw;
-    height:80px;
     padding:20px;
-    border-bottom: 1px solid rgba(146, 64, 14, 0.4);
-    position :fixed;
-}
-.navbar ul {
     text-align: right;
 }
-.navbar ul li {
+.navbar ul li{
     display:inline;
-    padding:0 20px 0 20px;
-    font-size:1.3rem;
+    padding:10px;
+    list-style-type: none;
 }
 .navbar ul li a{
-    color:#92400E;
+    color:#c8c8c8;
+    transform: scale(1.0);
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-delay: 50ms;
 }
-.navbar span{
-    font-size:1.3rem;
+.navbar ul li a:hover{
+    color:#ffffff;
+    transform: scale(1.2);
 }
-section.home{
-    display:flex;
-    width:100%;
-    border-bottom: 1px solid rgba(146, 64, 14, 0.4);
+section{
+    margin:40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.profile-photo{
-    width:30vw;
-    height:250px;
-    margin:20px;
-    border:1px solid #85774b;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    overflow:hidden;
-    box-shadow: -6px -4px 6px #ecd587;
+.frame{
+    width:80vw;
+    min-height: 40vh;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 24px;
+    padding:20px;
 }
-.profile-photo img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-}
-.intro-text{
-    width:60vw;
-    margin: 20px 30px;
-}
-
- ul.skills li{
-    list-style-type:none;
-    font-weight:300;
-}
-section.projects h1{
-    text-align:center;
-    font-size:1.5rem;
-    text-transform: uppercase;
-    margin:15px;
-   
-}
- div.projects{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-   padding:20px;
-   gap:10px;
-   height:200px;
-   
-}
- div.projects img{
-    width: 100%;
-    height:100%;
-    object-fit:cover;
-}
-div.projects p{
-font-size: 1.2rem;
->>>>>>> b32d30d68ad755f2c5033e13f58cf07dc351c6cb
-}
-.welcome-message h2{
-    color:white;
+.content {
+    margin:40px 30px;
 }
