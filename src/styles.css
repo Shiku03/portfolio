@@ -37,6 +37,18 @@ section{
     align-items: center;
     justify-content: center;
 }
+section.portfolio{
+    width:80vw;
+    height:60vh;
+    background-color:rgb(38, 38, 112);
+    position:relative;
+}
+.portfolio-frame{
+    width:50vw;
+    height:50vh;
+    position: absolute;
+    background-color: rgb(102, 15, 15);
+}
 .frame{
     width:80vw;
     min-height: 40vh;
