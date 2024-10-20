@@ -37,25 +37,35 @@ section{
     align-items: center;
     justify-content: center;
 }
-section.portfolio{
+section.intro{
     width:80vw;
     height:60vh;
-    background-color:rgb(38, 38, 112);
+    background-color: rgba(136, 136, 136, 0.1);
     position:relative;
 }
-.portfolio-frame{
+.intro-frame{
     width:50vw;
     height:50vh;
     position: absolute;
-    background-color: rgb(102, 15, 15);
+    left:80px;
+    top:10px;
+    background-color: rgb(134, 134, 134);
 }
 .frame{
     width:80vw;
     min-height: 40vh;
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: rgba(136, 136, 136, 0.1);
     border-radius: 24px;
     padding:20px;
 }
 .content {
     margin:40px 30px;
+}
+.inner-intro {
+    width:50vw;
+    height:50vh;
+    position: absolute;
+    left:80px;
+    top:10px;
+    background-color: rgb(46, 28, 5);
 }
