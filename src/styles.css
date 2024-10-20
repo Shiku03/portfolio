@@ -43,14 +43,6 @@ section.intro{
     background-color: rgba(136, 136, 136, 0.1);
     position:relative;
 }
-.intro-frame{
-    width:50vw;
-    height:50vh;
-    position: absolute;
-    left:80px;
-    top:10px;
-    background-color: rgb(134, 134, 134);
-}
 .frame{
     width:80vw;
     min-height: 40vh;
@@ -61,11 +53,11 @@ section.intro{
 .content {
     margin:40px 30px;
 }
-.inner-intro {
-    width:50vw;
-    height:50vh;
+.intro-card {
+    width:200px;
+    height:300px;
     position: absolute;
     left:80px;
-    top:10px;
+    top:30px;
     background-color: rgb(46, 28, 5);
 }
